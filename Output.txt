@@ -1,0 +1,32 @@
+
+%*****************************************************************************
+Title:                     *测试tran的电路:
+Node: 1
+  Component 1:
+    Ports: 1 0 
+   编号：1   类型：VSource   名称：VCC   value：3
+  Component 2:
+    Ports: 1 2 
+   编号：1   类型：Resistor   名称：R1   value：1000
+Total Components: 2
+
+Node: 0
+  Component 1:
+    Ports: 1 0 
+   编号：1   类型：VSource   名称：VCC   value：3
+  Component 2:
+    Ports: 2 0 
+   编号：1   类型：Capacitor   名称：C1   value：1e-05
+Total Components: 2
+
+Node: 2
+  Component 1:
+    Ports: 1 2 
+   编号：1   类型：Resistor   名称：R1   value：1000
+  Component 2:
+    Ports: 2 0 
+   编号：1   类型：Capacitor   名称：C1   value：1e-05
+Total Components: 2
+
+
+%*****************************************************************************
