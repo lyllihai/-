@@ -6,3 +6,5 @@
 
 
 3、使用命令 ./parser -f test.sp -o Output.txt 运行可执行文件，同时指定输入输出文件。（test.sp为输入文件，Output.txt为输出文件）
+
+项目运行视频为文件“程序运行.mp4”
